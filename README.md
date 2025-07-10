@@ -1,0 +1,1 @@
+A music player with HTML, CSS, and JS features a playlist showing song titles and artists, controls for play/pause, next, and previous, plus a progress bar and volume slider. It displays the current song’s title, artist, and duration. The progress bar updates with playback and allows seeking, while autoplay plays the next track automatically.
