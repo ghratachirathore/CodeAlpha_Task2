@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+
+html{
+  margin: 0px;
+  font-family: Outfit;
+}
+
+.music{
+  background-color: #c5e2f4;
+  margin: 60px auto;
+  width: 400px;
+  padding:  40px 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image img{
+  display: grid;
+  height: 30vh;
+  width: 20vw;
+  margin-bottom: 10px;
+}
+
+.image strong{
+  margin-top: 10px;
+  padding: 25px;
+  margin-left: 42px;
+}
+
+.image span{
+  display: block;
+  font-weight: 300;
+  text-align: center;
+  padding: 2px;
+}
+
+.controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+.controls audio{
+  width: 260px;
+  height: 40px;
+}
+
+.playlist{
+  display: block;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.playlist strong{
+  margin-left: 0px;
+}
+
+.upnext{
+  margin-top: 10px;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 0;
+  cursor: pointer;
+}
+
+.upnext img{
+  height: 50px;
+  width: 50px;
+}
+
+.upnext strong{
+  margin-left: 15px;
+  padding: 0;
+}
+
+.upnext span{
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.songtwo{
+  display: none;
+  background-color: #eed48c;
+  margin: 60px auto;
+  width: 400px;
+  padding:  30px 30px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.songtwo img{
+  height: 30vh;
+  width: 20vw;
+  margin-bottom: 10px;
+  margin-left: 32px;
+}
+
+.songtwo strong{
+  text-align: center;
+  padding: 8px;
+}
+
+.songtwo span{
+  display: block;
+  padding: 3px;
+  font-weight: 300;
+}
+
+.control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  margin-right: 3px;
+}
+
+.control audio{
+  width: 260px;
+  height: 40px;
+}
